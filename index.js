@@ -1,21 +1,23 @@
 // Code your solutions in this file
-/*for (let age = 30; age < 40; age++) {
-    console.log(`I'm ${age} years old. Happt birthday to me!`);
-}*/
+// for (let age = 30; age < 40; age++) {
+//     console.log(`I'm ${age} years old. Happt birthday to me!`);
+//     //debugger;
+
+// }
 
 
-/*const gifts = ["teddy bear", "drone", "doll"];
+// const gifts = ["teddy bear", "drone", "doll"];
 
-function wrapGifts(gifts) {
-    for (let i = 0; i < gifts.length; i++) {
-        console.log(`Wrapped ${gifts[i]} and added a bow!`);
-        debugger;
-    }
+// function wrapGifts(gifts) {
+//     for (let i = 0; i < gifts.length; i++) {
+//         console.log(`Wrapped ${gifts[i]} and added a bow!`);
+//         //debugger;
+//     }
 
-    return gifts;
-}
+//     return gifts;
+// }
 
-wrapGifts(gifts);*/
+// wrapGifts(gifts);
 
 
 const names = ["Charlie", "Sampi", "Ali"];
@@ -26,8 +28,8 @@ function writeCards (name, occasion) {
     for (let i = 0; i < names.length; i++) {
         message[i] = "Thank you, " + name[i] + ", for the wonderful " + occasion + " gift!";
     }
-return message;
-}
+    return message;
+    }
 
 writeCards(names,occasion);
 console.log(message);
